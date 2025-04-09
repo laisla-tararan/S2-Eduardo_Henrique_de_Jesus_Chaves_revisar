@@ -7,6 +7,19 @@ def mostrar_menu():
     print("5 - Finalizar e pagar")
     print("6 - Sair sem pagar 😅")
 
+def calcular_total(servicos):
+    total = 0
+    for s in servicos:
+        if s == "1":
+            total += 30
+        elif s == "2":
+            total += 40
+        elif s == "3":
+            total += 100
+        elif s == "4":
+            total += 80
+    return total
+
 def nome_pet():
     nome = input("Qual o nome do seu pet? ")
     print("Show! Vamos cuidar bem do", nome)
@@ -14,7 +27,7 @@ def nome_pet():
 
 def processar_servicos():
     carrinho = []
-    while True True True True True True True True:
+    while True:
         mostrar_menu()
         escolha = input("Escolha um serviço (1 a 6): ")
 
