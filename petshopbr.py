@@ -14,7 +14,7 @@ def nome_pet():
 
 def processar_servicos():
     carrinho = []
-    while True True True True True True True True:
+    while True:
         mostrar_menu()
         escolha = input("Escolha um serviço (1 a 6): ")
 
